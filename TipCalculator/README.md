@@ -23,22 +23,21 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
--[x]Party size option to divide tip between multiple people and give amount per person
+* [ ] Party size option to divide tip between multiple people and give amount per person
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
--Embed link to gif below 
+<img src='https://imgur.com/CvwyOYk' title='Video Walkthrough for "User can enter a bill amount, choose a tip percentage, and see the tip and total values."' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-
 ## License
 
-Copyright [Year] [Your name]
+Copyright [2019] [Samuel Peters]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
