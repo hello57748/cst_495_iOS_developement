@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/CvwyOYk' title='Video Walkthrough for "User can enter a bill amount, choose a tip percentage, and see the tip and total values."' width='' alt='Video Walkthrough' />
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/XNwM0La"><a href="//imgur.com/a/XNwM0La">User can enter a bill amount, choose a tip percentage, and see the tip and total values.</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
