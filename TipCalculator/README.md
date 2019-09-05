@@ -31,7 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/XNwM0La"><a href="//imgur.com/a/XNwM0La">User can enter a bill amount, choose a tip percentage, and see the tip and total values.</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-<img src='//imgur.com/a/XNwM0La' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='TipCalculatorGif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
