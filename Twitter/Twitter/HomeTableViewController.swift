@@ -35,6 +35,7 @@ class HomeTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.numberOfTweets = 20
         loadTweet()
 
         // Uncomment the following line to preserve selection between presentations
@@ -42,6 +43,11 @@ class HomeTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.loadTweet()
     }
 
     @IBAction func onLogout(_ sender: Any) {
@@ -63,6 +69,11 @@ class HomeTableViewController: UITableViewController {
         if let imageData = data {
             cell.profileImage.image = UIImage(data: imageData)
         }
+        
+        let isFavorited = tweetsArray[indexPath.row]["favorited"] as! Bool
+        cell.setFavorite(isFavorited: isFavorited)
+        cell.tweetId = tweetsArray[indexPath.row]["id"] as! Int
+        cell.setRetweeted(isRetweeted: tweetsArray[indexPath.row]["retweeted"] as! Bool)
         
         return cell
     }
